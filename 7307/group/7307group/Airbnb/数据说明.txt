@@ -1,0 +1,7 @@
+title## Accurate Price Prediction and Spatial Driver Analysis for Hong Kong Short-Term Rentals (Airbnb)
+1.Data Screening: Raw Airbnb and OSM data, handle missing values, extract property features, and standardize spatial formats.
+2.Transport Features: Calculated metro and bus stop distances and density with a 100/500m buffer zone using the OSMnx library.
+3.Commercial Features: Calculated POI counts (shop,restaurant,commercial) within a 500m buffer zone.
+4.Landscape Features: Measured proximity to the landscape（beach,park,water body,tourist attraction）
+5.#Model Development: Integrated spatial features and trained five models (OLS, Random Forest, XGBoost, LightGBM, and a Stacking ensemble) with Optuna hyperparameter tuning.
+6.Visualization & Leader: Generated spatial price maps, SHAP summary plots, feature importance charts and Managed process.
